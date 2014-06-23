@@ -1,0 +1,15 @@
+{
+  "name": "vani",
+  "version": "0.0.1",
+  "description": "site for vani tablet",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/JimmyBryant/Vani.git"
+  },
+  "author": "bitterg",
+  "license": "BSD"
+}
