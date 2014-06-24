@@ -7,5 +7,7 @@ require.config({
 });
 
 require(['jquery','nav'],function($,nav){
-	nav($('.nav'));
+	$(function(){
+		nav();
+	});
 });

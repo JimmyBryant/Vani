@@ -102,6 +102,10 @@ a:hover{text-decoration:underline;}
 #header .sub-nav li{list-style:none;border-bottom:1px solid #dddddd;}
 #header .sub-nav li a{display:block;padding:10px;color:#666666;}
 #header .sub-nav li a:hover{text-decoration:none;background:#dddddd;}
+#header .search-box{float:right;position:relative;padding-top:15px;color:#444444;}
+#header .search-box .flag{position:absolute;left:15px;top:22px;color:#666666;}
+#header .search-box .keyword{background:#dadada;width:160px;padding:5px 25px 5px 15px;border:none;outline:none;border-radius:20px 20px 20px 20px;-webkit-border-radius:20px 20px 20px 20px;-moz-border-radius:20px 20px 20px 20px;-ms-border-radius:20px 20px 20px 20px;-o-border-radius:20px 20px 20px 20px;box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.3);-webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.3);-moz-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.3);-ms-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.3);-o-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.3);}
+#header .search-box .btn-search{position:absolute;background:transparent;border:none;right:0;top:18px;cursor:pointer;outline:none;}
 #footer{position:relative;bottom:18px;color:#666666;font-size:13px;}#footer .footer-links{padding:10px 15px;border-top:1px solid #ddd;border-bottom:1px solid #DDD;}
 #footer .footer-links .links{text-align:right;}#footer .footer-links .links a{display:inline-block;text-align:center;padding:0 10px;color:#9dc542;}
 #footer .footer-copyrights{text-align:center;padding:15px;}

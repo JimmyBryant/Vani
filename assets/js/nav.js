@@ -1,6 +1,10 @@
 define(['jquery'],function  ($) {
-	function nav($nav){
-		var $items = $('>li',$nav);
+	function nav(){
+		var $nav = $('.nav')
+			,$items = $('>li',$nav)
+			,$sbox = $('.search-box')
+			,$keyword = $('.keyword',$sbox)
+			;
 		$.each($items,function(i,ele){
 			var $li = $(ele);
 			if($('>ul',$li).length){
@@ -16,7 +20,15 @@ define(['jquery'],function  ($) {
 					}
 				});
 			}
-		})
+		});
+		$keyword.on('keypress',function(){
+			$('.flag',$sbox).hide();
+		});
+		$keyword.on('blur',function(){
+			if($.trim(this.value)==''){
+				$('.flag',$sbox).show();
+			}
+		});
 	}
 	return nav;
 });
