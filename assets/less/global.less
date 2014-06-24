@@ -1,7 +1,15 @@
 @w1:1000px;
-@c1:#ececec;
+
 @c2:#f8f8f8;
 @c3:#9dc542;
+
+@font_col1:#222;
+@font_col2:#444;
+@font_col3:#666;
+@font_col4:#888;
+
+@bg_col1:#ececec;
+@bd_col1:#ddd;
 
 @S:5px;
 @S2:8px;
@@ -10,6 +18,7 @@
 @L:20px;
 @L2:25px;
 @nav_h:60px;
+@footer_h:100px;
 .border-radius(@a:4px,@b:4px,@c:4px,@d:4px){
 	border-radius:@a @b @c @d;
 	-webkit-border-radius:@a @b @c @d;
@@ -38,15 +47,37 @@
 	-ms-box-shadow:@x @y @b @c;
 	-o-box-shadow:@x @y @b @c;
 }
+html,body{
+	height:100%;
+}
 body{
+	font:12px/1.25em Arial,Helvetica, sans-serif;
+	color:@font_col1;
 	background-color:@c2;
+}
+a,a:link{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
+.wrapper{
+	position:relative;
+	min-height:100%;
+	height:auto !important;
+	height:100%;
+	margin:0 auto -@footer_h;
+}
+.full-height{
+	min-height:100%;
+	height:100%;
 }
 .container{
 	width:@w1;
 	margin:0 auto;
 }
 #header{
-	background-color:@c1;
+	background-color:@bg_col1;
 	margin-top:40px;
 	padding:@S2;
 	.border-radius(@S,@S,@S,@S);
@@ -70,13 +101,14 @@ body{
 		margin-left: 180px;
 	}
 
-	.nav li{
+	.nav li.nav-item{
 		float: left;
+		position: relative;
 		list-style: none;
 		margin: @S @M;
 	}
 
-	.nav li a{
+	.nav li.nav-item>a{
 		display:block;
 		height: 50px;
 		line-height: 50px;
@@ -85,11 +117,94 @@ body{
 		color:#888;
 		text-decoration:none;
 		.border-radius(4px,4px,0,0);
-		.transition()
+		.transition();
 
 	}
-	.nav li a:hover{
+	.nav li.actived>a,.nav li.nav-item>a:hover{
+		.inset-box-shadow(0,1px,1px,rgba(0,0,0,.2));
+		color:@font_col2;
 		background-color:#e8e8e8;
 		border-bottom:3px solid @c3;
 	}
+	.nav li ul{
+		display:none;
+	}
+	.sub-nav{
+		background: @bg_col1;
+		padding: @N 0;
+		.border-radius(0,0,4px,4px);
+		position: absolute;
+		top: 53px;
+		left: 0;
+		width: 100%;
+		z-index: 999;
+	}
+	.sub-nav li{
+		list-style:none;
+		border-bottom:1px solid @bd_col1;
+	}
+	.sub-nav li a{
+		display:block;
+		padding:@N;
+		color:@font_col3;
+	}
+	.sub-nav li a:hover{
+		text-decoration:none;
+		background:@bd_col1;
+	}
+}
+
+#footer{
+	position:relative;
+	bottom:18px;
+	color: @font_col3;
+	font-size: 13px;
+	.footer-links{
+		padding:@N @M;
+		border-top: 1px solid #ddd;
+		border-bottom: 1px solid #DDD;
+		.left{
+
+		}
+		.links{
+			text-align:right;
+			a{
+				display:inline-block;
+				text-align:center;
+				padding:0 @N;
+				color:@c3;
+			}
+		}
+	}
+	.footer-copyrights{
+		text-align:center;
+		padding:@M;
+	}
+}
+
+.color-light{
+	color:@c3;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+ .clearfix:before,
+ .clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+ .clearfix:after {
+    clear: both;
+}
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+ .clearfix {
+    *zoom: 1;
 }
