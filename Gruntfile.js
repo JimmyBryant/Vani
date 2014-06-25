@@ -53,14 +53,15 @@ module.exports = function(grunt) {
 		  	default:{
 		  		files:{
 		  			'assets/css/style.css':'assets/less/style.less',
-		  			'assets/css/global.css':'assets/less/global.less'
+		  			'assets/css/global.css':'assets/less/global.less',
+		  			'assets/css/product.css':'assets/less/product.less'
 		  		}
 		  	}
 		  },
 		  watch:{
 		  	dev:{
   			  	files:['assets/less/*.less'],
-		  		tasks:['less','concat:css']
+		  		tasks:['less']
 		  	}
 
 		  }

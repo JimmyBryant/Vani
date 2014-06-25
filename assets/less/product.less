@@ -1,0 +1,42 @@
+@import "params";
+
+.pro-head{
+	padding:@N 0 0;
+	border-bottom:1px solid @bd_col1;
+	.pro-head-leftCon{
+		float:left;
+		margin-top:0;
+	}
+	.pro-head-rightCon{
+		display:inline;
+		float:right;
+		li{
+			display:inline;
+		}
+		li a{
+			float:left;
+			color:@font_col1;
+			margin: 1em 0 0 24px;
+			.text-shadow(0,1px,0,#FFF);
+		}
+		li a:hover{
+			text-decoration:none;
+			color:@link_col2;
+		}
+		.btn-buynow{
+			background: url(../images/buynows.png);
+			display: block;
+			width: 72px;
+			height: 25px;
+			margin:0.8em 0 0 20px;
+			text-indent:-9999px;
+		}
+		.btn-buynow:hover{
+			background-position:0 -25px;
+		}
+	}
+}
+.vani-conent-intro{
+	min-height:500px;
+
+}

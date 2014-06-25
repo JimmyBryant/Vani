@@ -1,0 +1,59 @@
+@w1:1000px;
+
+@c2:#f8f8f8;
+@c3:#9dc542;
+@font_col1:#222;
+@font_col2:#444;
+@font_col3:#666;
+@font_col4:#888;
+@link_col1:#9dc542;
+@link_col2:#628A09;
+
+@bg_col1:#ececec;
+@bd_col1:#ddd;
+
+@S:5px;
+@S2:8px;
+@N:10px;
+@M:15px;
+@L:20px;
+@L2:25px;
+@L3:30px;
+@nav_h:60px;
+@footer_h:100px;
+@slide_h:600px;
+.border-radius(@a:4px,@b:4px,@c:4px,@d:4px){
+	border-radius:@a @b @c @d;
+	-webkit-border-radius:@a @b @c @d;
+	-moz-border-radius:@a @b @c @d;
+	-ms-border-radius:@a @b @c @d;
+	-o-border-radius:@a @b @c @d;
+}
+.transition(@t:all,@d:.1s,@e:ease-in){
+	transition:@t @d @e;
+	-webkit-transition:@t @d @e;
+	-moz-transition:@t @d @e;
+	-ms-transition:@t @d @e;
+	-o-transition:@t @d @e;
+}
+.inset-box-shadow(@x,@y,@b,@c,@i:inset){
+	box-shadow:@i @x @y @b @c;
+	-webkit-box-shadow:@i @x @y @b @c;
+	-moz-box-shadow:@i @x @y @b @c;
+	-ms-box-shadow:@i @x @y @b @c;
+	-o-box-shadow:@i @x @y @b @c;
+}
+.box-shadow(@x,@y,@b,@c){
+	box-shadow:@x @y @b @c;
+	-webkit-box-shadow:@x @y @b @c;
+	-moz-box-shadow:@x @y @b @c;
+	-ms-box-shadow:@x @y @b @c;
+	-o-box-shadow:@x @y @b @c;
+}
+.text-shadow(@x,@y,@b,@c){
+	text-shadow:@x @y @b @c;
+	-webkit-text-shadow:@x @y @b @c;
+	-moz-text-shadow:@x @y @b @c;
+	-ms-text-shadow:@x @y @b @c;
+	-o-text-shadow:@x @y @b @c;
+}

@@ -1,71 +1,34 @@
-@w1:1000px;
+@import "params";
+@import "reset";
 
-@c2:#f8f8f8;
-@c3:#9dc542;
-
-@font_col1:#222;
-@font_col2:#444;
-@font_col3:#666;
-@font_col4:#888;
-
-@bg_col1:#ececec;
-@bd_col1:#ddd;
-
-@S:5px;
-@S2:8px;
-@N:10px;
-@M:15px;
-@L:20px;
-@L2:25px;
-@nav_h:60px;
-@footer_h:100px;
-@slide_h:600px;
-.border-radius(@a:4px,@b:4px,@c:4px,@d:4px){
-	border-radius:@a @b @c @d;
-	-webkit-border-radius:@a @b @c @d;
-	-moz-border-radius:@a @b @c @d;
-	-ms-border-radius:@a @b @c @d;
-	-o-border-radius:@a @b @c @d;
-}
-.transition(@t:all,@d:.1s,@e:ease-in){
-	transition:@t @d @e;
-	-webkit-transition:@t @d @e;
-	-moz-transition:@t @d @e;
-	-ms-transition:@t @d @e;
-	-o-transition:@t @d @e;
-}
-.inset-box-shadow(@x,@y,@b,@c,@i:inset){
-	box-shadow:@i @x @y @b @c;
-	-webkit-box-shadow:@i @x @y @b @c;
-	-moz-box-shadow:@i @x @y @b @c;
-	-ms-box-shadow:@i @x @y @b @c;
-	-o-box-shadow:@i @x @y @b @c;
-}
-.box-shadow(@x,@y,@b,@c){
-	box-shadow:@x @y @b @c;
-	-webkit-box-shadow:@x @y @b @c;
-	-moz-box-shadow:@x @y @b @c;
-	-ms-box-shadow:@x @y @b @c;
-	-o-box-shadow:@x @y @b @c;
-}
 html,body{
 	height:100%;
 }
 body{
-	font:12px/1.25em Arial,Helvetica, sans-serif;
+	font:12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 	color:@font_col1;
 	background-color:@c2;
 }
-li{
-	list-style:none;
+.left{
+	float:left;
 }
-a,a:link{
-	text-decoration:none;
+.right{
+	float:right;
 }
-a:hover{
-	text-decoration:underline;
+.color-light{
+	color:@c3;
 }
-
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
 .container{
 	width:@w1;
 	margin:0 auto;
@@ -88,7 +51,7 @@ a:hover{
 	.logo{
 		float:left;
 		margin-top:10px;
-		width:auto
+		width:auto;
 		height: 40px;
 	}
 	.nav{
@@ -128,7 +91,7 @@ a:hover{
 		padding: @N 0;
 		.border-radius(0,0,4px,4px);
 		position: absolute;
-		top: 53px;
+		top: 50px;
 		left: 0;
 		width: 100%;
 		z-index: 999;
@@ -177,9 +140,11 @@ a:hover{
 		outline: none;
 	}
 }
+.main-content{
+	margin:@M 0;
+}
 #v-slide-box{
 	position:relative;
-	margin:@M 0;
 }
 .v-slider{
 	height:@slide_h;
@@ -199,6 +164,9 @@ a:hover{
 	margin-bottom: @L;
 	background: @bd_col1;
 	border-radius: 8px;
+	.serie-list{
+		padding:0;
+	}
 	.serie-list li{
 		float:left;
 		margin:0 13px;
@@ -222,7 +190,6 @@ a:hover{
 				display:inline-block;
 				text-align:center;
 				padding:0 @N;
-				color:@c3;
 			}
 		}
 	}
@@ -232,29 +199,5 @@ a:hover{
 	}
 }
 
-.color-light{
-	color:@c3;
-}
-.left{
-	float:left;
-}
-.right{
-	float:right;
-}
- .clearfix:before,
- .clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
-}
 
- .clearfix:after {
-    clear: both;
-}
-/*
- * For IE 6/7 only
- * Include this rule to trigger hasLayout and contain floats.
- */
 
- .clearfix {
-    *zoom: 1;
-}
