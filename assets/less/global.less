@@ -7,7 +7,7 @@ html,body{
 body{
 	font:12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 	color:@font_col1;
-	background-color:@c2;
+	background-color:@site_bg_col;
 }
 .left{
 	float:left;
@@ -141,10 +141,11 @@ body{
 	}
 }
 .main-content{
-	margin:@M 0;
+	margin:0 auto;
 }
 #v-slide-box{
 	position:relative;
+	margin:@L 0;
 }
 .v-slider{
 	height:@slide_h;
@@ -179,8 +180,7 @@ body{
 	margin-bottom:40px;
 	.footer-links{
 		padding:@N @M;
-		border-top: 1px solid #ddd;
-		border-bottom: 1px solid #DDD;
+		border-bottom: 1px solid @bd_col1;
 		.left{
 
 		}
