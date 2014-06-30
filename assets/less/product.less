@@ -50,6 +50,9 @@
 		padding-top:42px;
 		border-bottom: 1px solid @bd_col1;
 	}
+	section:last-child{
+		border:none;
+	}
 	section img{
 		max-width:100%;
 	}
@@ -59,6 +62,32 @@
 	section p{
 		font-size: 20px;
 		color:@font_col4;
+	}
+	table{
+		color:@font_col2;
+		font-size:14px;
+	}
+	table td{
+		border:1px solid @bd_col1;
+		border-collapse:collapse;
+	}
+	table td:nth-child(odd){
+		background: @bg_col2;
+	}
+	table td ol{
+		margin: 0;
+		text-align:left;
+		color:@font_col4;
+	}
+	table td li{
+		margin:@N 0;
+	}
+	ol li strong,ol li span{
+		display:inline-block;
+		vertical-align:text-top;
+	}
+	ol li strong{
+		width:20%;
 	}
 }
 .article{
