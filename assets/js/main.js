@@ -30,15 +30,15 @@ require(['jquery','nav','jquery.responsiveslides'],function($,nav){
 				$(window).scrollTop($('.pro-head').offset().top);
 				switch(item){
 					case "features":
-					$('.vani-conent-intro .section').hide();
-					$('.vani-conent-intro .features').show();
+					$('.vani-conent-intro section').hide();
+					$('#features').show();
 					break;
 					case "specification":
-					$('.vani-conent-intro .section').hide();
-					$('.vani-conent-intro .specification').show();
+					$('.vani-conent-intro section').hide();
+					$('#specification').show();
 					break;
 					default:
-					$('.vani-conent-intro .section').show();
+					$('.vani-conent-intro section').show();
 				}
 			}
 		});
