@@ -28,17 +28,16 @@ require(['jquery','nav','jquery.responsiveslides'],function($,nav){
 
 			function showContent(item){
 				$(window).scrollTop($('.pro-head').offset().top);
+				$('.vani-conent-intro section').hide();
 				switch(item){
 					case "features":
-					$('.vani-conent-intro section').hide();
-					$('#features').show();
+					$('.vani-conent-intro .features').show();
 					break;
 					case "specification":
-					$('.vani-conent-intro section').hide();
-					$('#specification').show();
+					$('.vani-conent-intro .specification').show();
 					break;
 					default:
-					$('.vani-conent-intro section').show();
+					$('.vani-conent-intro .overview').show();
 				}
 			}
 		});
