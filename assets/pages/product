@@ -14,7 +14,10 @@
 					<li data-item="specification"  class="item">
 						<a href="javascript:;">Specification</a>
 					</li>
-					<li><a href="#" class="btn-buynow">Buy Vani Now</a></li>
+					<li>
+						<a href="http://forum.vani-tablet.com/">Forum</a>
+					</li>
+					<li><a href="javascript:;" class="btn-buynow">Buy Vani Now</a></li>
 				</ul>
 			</div>
 			<div class="vani-conent-intro">
