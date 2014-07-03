@@ -35,15 +35,14 @@ module.exports = function(grunt) {
 		  	}
 		  },
 		  concat:{
-		  	options: {
 
-		    },
-		    css :{
-		    	options:{
-		    		separator: ''
-		    	},
-		    	src:['assets/css/reset.css','assets/css/global.css'],
-		    	dest:'assets/css/global.css'
+		    html :{
+		    	files:{
+		    		'index.html':['assets/template/head','assets/pages/index','assets/template/foot'],
+		    		'product.html':['assets/template/head','assets/pages/product','assets/template/foot'],
+		    		'products.html':['assets/template/head','assets/pages/products','assets/template/foot'],
+		    		'about.html':['assets/template/head','assets/pages/about','assets/template/foot']
+		    	}
 		    }
 		  },
 		  less:{

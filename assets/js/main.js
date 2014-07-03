@@ -11,35 +11,54 @@ require.config({
 });
 
 require(['jquery','nav','jquery.responsiveslides'],function($,nav){
+
 	$(function(){
 		nav();
 		$(".v-slider").responsiveSlides({
 			pager:true
 		});
-		//product page overview/features/specification item exchange func
-		$('.pro-head-rightCon>li').on('click',function(){
-			var $ul = $('.pro-head-rightCon');
-			var $this = $(this);
-			if($this.hasClass('item')&&!$this.hasClass('actived')){
-				$ul.find('li.actived').removeClass('actived');
-				$this.addClass('actived');
-				showContent($this.data('item'));
-			}
 
-			function showContent(item){
-				$(window).scrollTop($('.pro-head').offset().top);
-				$('.vani-conent-intro section').hide();
-				switch(item){
-					case "features":
-					$('.vani-conent-intro .features').show();
-					break;
-					case "specification":
-					$('.vani-conent-intro .specification').show();
-					break;
-					default:
-					$('.vani-conent-intro .overview').show();
+		if($('#product-content').length){
+			var pro_head_top = $('.pro-head').offset().top
+				,pro_head_h = $('.pro-head').outerHeight()+parseInt($('.pro-head').css('marginTop'))*2;
+			//product page overview/features/specification item exchange func
+			$('.pro-head-rightCon>li').on('click',function(){
+				var $ul = $('.pro-head-rightCon');
+				var $this = $(this);
+				if($this.hasClass('item')&&!$this.hasClass('actived')){
+					$ul.find('li.actived').removeClass('actived');
+					$this.addClass('actived');
+					switchContent($this.data('item'));
 				}
-			}
-		});
+
+				function switchContent(item){
+					if(item){
+						$(window).scrollTop(pro_head_top);
+						$('.vani-conent-intro section').hide();
+						$('.vani-conent-intro .'+item).show();
+					}
+				}
+			});
+
+			// bind window scroll event
+			$(window).on('scroll',function(){
+				var $phd = $('.pro-head')
+					,t = $(window).scrollTop()
+					;
+				if(t>pro_head_top){
+					if(!$phd.hasClass('pro-head-fixed')){
+						$phd.addClass('pro-head-fixed');
+						$('.vani-conent-intro').css('marginTop',pro_head_h+'px');
+					}
+
+				}else{
+					if($phd.hasClass('pro-head-fixed')){
+						$phd.removeClass('pro-head-fixed');
+						$('.vani-conent-intro').css('marginTop',0);
+					}
+				}
+
+			});
+		}
 	});
 });
