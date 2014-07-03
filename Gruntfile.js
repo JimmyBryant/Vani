@@ -39,8 +39,8 @@ module.exports = function(grunt) {
 		    html :{
 		    	files:{
 		    		'index.html':['assets/template/head','assets/pages/index','assets/template/foot'],
+		    		'product-vw-10.html':['assets/template/head','assets/pages/product-vw-10','assets/template/foot'],
 		    		'product.html':['assets/template/head','assets/pages/product','assets/template/foot'],
-		    		'products.html':['assets/template/head','assets/pages/products','assets/template/foot'],
 		    		'about.html':['assets/template/head','assets/pages/about','assets/template/foot']
 		    	}
 		    }
