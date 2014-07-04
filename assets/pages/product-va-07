@@ -1,0 +1,28 @@
+		<div class="main-content" id="product-content">
+			<div class="pro-head clearfix">
+				<h3 class="pro-head-leftCon">
+					Vani VA-07
+				</h3>
+				<ul class="pro-head-rightCon">
+					<li data-item="overview" class="item actived">
+						<a href="javascript:;">Overview</a>
+					</li>
+					<li>
+						<a href="http://forum.vani-tablet.com/">Support</a>
+					</li>
+					<li><a href="javascript:;" class="btn-buynow">Buy Vani Now</a></li>
+				</ul>
+			</div>
+			<div class="vani-conent-intro">
+				<section class="overview">
+
+					<img src="assets/images/va-07/01.jpg">
+					<img src="assets/images/va-07/02.jpg">
+					<img src="assets/images/va-07/03.jpg">
+					<img src="assets/images/va-07/04.jpg">
+					<img src="assets/images/va-07/05.jpg">
+										
+				</section>
+				
+			</div>
+		</div>

@@ -11,46 +11,36 @@
 						<li class="vn-good-item">
 							<div class="item-content">
 								<span class="item-thumb">
-									<a href="#">
-										<img src="http://img06.mifile.cn/v1/MI_18455B3E4DA706226CF7535A58E875F0267/T1ttJTBjWv1RXrhCrK.jpg?width=220&amp;height=220" srcset="http://img06.mifile.cn/v1/MI_18455B3E4DA706226CF7535A58E875F0267/T1ttJTBjWv1RXrhCrK.jpg?width=440&amp;height=440 2x" alt="小米活塞耳机"/>
+									<a href="product-vw-10.html">
+										<img src="assets/images/thumb/vw-10.jpg" alt="vani windows pad"/>
 									</a>
 								</span>
 								<span class="item-title">
-									Windows Tablet
+									Vani VW-10
 								</span>
 								<span class="item-desc">
-									听歌神器，礼品级包装
+									Not only a pad,But also a PC
 								</span>
 							</div>
 						</li>
 						<li class="vn-good-item">
 							<div class="item-content">
 								<span class="item-thumb">
-									<a href="#">
-										<img src="http://img06.mifile.cn/v1/MI_18455B3E4DA706226CF7535A58E875F0267/T1ttJTBjWv1RXrhCrK.jpg?width=220&height=220" srcset="http://img06.mifile.cn/v1/MI_18455B3E4DA706226CF7535A58E875F0267/T1ttJTBjWv1RXrhCrK.jpg?width=440&height=440 2x" alt="小米活塞耳机"/>
+									<a href="product-va-07.html">
+										<img src="assets/images/thumb/va-07.jpg" alt="vani android pad"/>
 									</a>
 								</span>
 								<span class="item-title">
-									Windows Tablet
+									Vani VA-07
 								</span>
 								<span class="item-desc">
-									听歌神器，礼品级包装
+									 Android 4.2.2 Allwinner A23 Dual Core
 								</span>
 							</div>
 						</li>
 						<li class="vn-good-item">
 							<div class="item-content">
-								<span class="item-thumb">
-									<a href="#">
-										<img src="http://img06.mifile.cn/v1/MI_18455B3E4DA706226CF7535A58E875F0267/T1ttJTBjWv1RXrhCrK.jpg?width=220&height=220" srcset="http://img06.mifile.cn/v1/MI_18455B3E4DA706226CF7535A58E875F0267/T1ttJTBjWv1RXrhCrK.jpg?width=440&height=440 2x" alt="小米活塞耳机"/>
-									</a>
-								</span>
-								<span class="item-title">
-									Windows Tablet
-								</span>
-								<span class="item-desc">
-									听歌神器，礼品级包装
-								</span>
+
 							</div>
 						</li>
 					</ul>

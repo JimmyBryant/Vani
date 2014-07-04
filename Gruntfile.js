@@ -40,6 +40,7 @@ module.exports = function(grunt) {
 		    	files:{
 		    		'index.html':['assets/template/head','assets/pages/index','assets/template/foot'],
 		    		'product-vw-10.html':['assets/template/head','assets/pages/product-vw-10','assets/template/foot'],
+		    		'product-va-07.html':['assets/template/head','assets/pages/product-va-07','assets/template/foot'],
 		    		'product.html':['assets/template/head','assets/pages/product','assets/template/foot'],
 		    		'about.html':['assets/template/head','assets/pages/about','assets/template/foot']
 		    	}
