@@ -1,3 +1,4 @@
+
 		<div class="main-content" id="product-content">
 			<div class="pro-head clearfix">
 				<h3 class="pro-head-leftCon">
@@ -7,6 +8,9 @@
 					<li data-item="overview" class="item actived">
 						<a href="javascript:;">Overview</a>
 					</li>
+					<li data-item="specification"  class="item">
+						<a href="javascript:;">Specification</a>
+					</li>
 					<li>
 						<a href="http://forum.vani-tablet.com/">Support</a>
 					</li>
@@ -15,14 +19,78 @@
 			</div>
 			<div class="vani-conent-intro">
 				<section class="overview">
-
+					<h1>7" Android 4.2.2 Tablet PC</h1>
+					<p>Allwinner A23 Dual Core Dual Camera 1.5GHz 512M 8G</p>
+					<img src="assets/images/va-07/05.jpg">
+					<hr>
 					<img src="assets/images/va-07/01.jpg">
 					<img src="assets/images/va-07/02.jpg">
 					<img src="assets/images/va-07/03.jpg">
 					<img src="assets/images/va-07/04.jpg">
-					<img src="assets/images/va-07/05.jpg">
-										
 				</section>
-				
+				<section class="specification">
+					<table width="100%" cellpadding="0" cellspacing="0">
+						<tr>
+							<td><strong>Size and Weight</strong></td>
+							<td><img src="assets/images/va-07/08.jpg" width="788" height="280" alt=""></td>
+						</tr>
+						<tr>
+							<td><strong>Processor and Storage</strong></td>
+							<td>
+								<ol>
+									<li>
+										<strong>GPU</strong><span>Allwinner A23 Dual-Core ARM Cortex A7@1.5Ghz</span>
+									</li>
+									<li>
+										<strong>GPU</strong>Mali-400 MP2<span></span>
+									</li>
+									<li>
+										<strong>Display</strong><span>7.0 inch LCD TFT 800*480, support G-Sensor</span>
+									</li>
+									<li>
+										<strong>Storage</strong><span>512MB DDR3 + 8GB Nand Flash</span>
+									</li>
+									<li>
+										<strong>O/S</strong><span>Google Android 4.2.2 Jelly Bean</span>
+									</li>
+								</ol>
+							</td>
+						</tr>
+						<tr>
+							<td><strong>Communications and Power</strong></td>
+							<td>
+								<ol>
+									<li>
+										<strong>LAN</strong><span>External Fast 10/100 Mbps if equipped with an Ethernet Adapter</span>
+									</li>
+									<li>
+										<strong>Wireless</strong><span>Support WiFi (Built-in 802.11b/g WLAN Card), Support 3G (3G Dongle Not Included in Package)</span>
+									</li>
+									<li>
+										<strong>AC Power Adaptor </strong><span>Input AC100-240V, 50-60Hz, Output 5V 1.5A</span>
+									</li>
+									<li>
+										<strong>Battery </strong><span>3.7V 3000mAh Li-Polymer rechargeable battery</span>
+									</li>
+									<li>
+										<strong>Working/Stand-By</strong><span>4.5 hours/120 hours</span>
+									</li>
+								</ol>
+							</td>
+						</tr>
+						<tr>
+							<td><strong>Multi-Media</strong></td>
+							<td>
+								<ol>
+									<li><strong>Camera</strong><span> Dual Camera (0.3m)</span></li>
+									<li><strong>Picture Viewer</strong><span>Support JPG, JPEG, GIF.....</span></li>
+									<li><strong>Media File Audio</strong><span>MP3, WMA, WAV, APE, OGG, FLAC</span></li>
+									<li><strong>Video Player</strong><span>Support AVI, RM, MKV, WMV, MOV, MP4,PMP,MPEG, MPG, FLV, 3GP, MPG, H.264, etc</span></li>
+									<li><strong>Music Player</strong><span>Support MP3, WMA, MP2, OGG, AAC, M4A, MA4, FLAC, APE, 3GP, WAV, support playlist</span></li>
+								</ol>
+							</td>
+						</tr>
+					</table>
+				</section>
 			</div>
 		</div>
