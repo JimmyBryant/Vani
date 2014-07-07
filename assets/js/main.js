@@ -28,14 +28,12 @@ require(['jquery','nav','jquery.responsiveslides'],function($,nav){
 				if($this.hasClass('item')&&!$this.hasClass('actived')){
 					$ul.find('li.actived').removeClass('actived');
 					$this.addClass('actived');
-					// switchContent($this.data('item'));
+					switchContent($this.data('item'));
 				}
 
 				function switchContent(item){
 					if(item){
-						$(window).scrollTop(pro_head_top);
-						$('.vani-conent-intro section').hide();
-						$('.vani-conent-intro .'+item).show();
+						$(window).scrollTop($('.vani-conent-intro .'+item).offset().top);
 					}
 				}
 			});
@@ -45,6 +43,7 @@ require(['jquery','nav','jquery.responsiveslides'],function($,nav){
 				var $phd = $('.pro-head')
 					,t = $(window).scrollTop()
 					;
+
 				if(t>pro_head_top){
 					if(!$phd.hasClass('pro-head-fixed')){
 						$phd.addClass('pro-head-fixed');

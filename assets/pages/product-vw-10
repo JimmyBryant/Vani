@@ -1,22 +1,22 @@
-		<div class="main-content" id="product-content">
+<div class="main-content" id="product-content">
 			<div class="pro-head clearfix">
 				<h3 class="pro-head-leftCon">
 					Model VW-10
 				</h3>
 				<ul class="pro-head-rightCon">
 					<li data-item="overview" class="item actived">
-						<a href="#overview">Overview</a>
+						<a href="javascript:;">Overview</a>
 					</li>
 					<li data-item="features" class="item">
-						<a href="#features">Features</a>
+						<a href="javascript:;">Features</a>
 					</li>
 					<li data-item="specification"  class="item">
-						<a href="#specification">Specification</a>
+						<a href="javascript:;">Specification</a>
 					</li>
 					<li>
 						<a href="http://forum.vani-tablet.com/">Support</a>
 					</li>
-					<li><a href="javascript:;" class="btn-buynow">Buy Vani Now</a></li>
+					<li><a href="buy.html" class="btn-buynow">Buy Vani Now</a></li>
 				</ul>
 			</div>
 			<div class="vani-conent-intro">
@@ -59,7 +59,7 @@
 							<td>
 								<ol>
 									<li>
-										<strong>AP</strong><span>BayTrail-T Z3745D SOC 1.8GHz Quad </span>
+										<strong>AP</strong><span>BayTrail-T Z3770 SOC 2.4GHz Quad  </span>
 									</li>
 									<li>
 										<strong>Core</strong>Silvermont Core<span></span>
@@ -90,13 +90,13 @@
 										<strong>Bluetooth</strong><span>BT V4.0+HS</span>
 									</li>
 									<li>
-										<strong>Sensor</strong><span>G-force</span>
+										<strong>Sensor</strong><span>G-force/Gyro/Compass/Light</span>
 									</li>
 									<li>
-										<strong>Battery </strong><span>4500mAh Li-Ion</span>
+										<strong>Battery </strong><span>8000mAh Li-Ion</span>
 									</li>
 									<li>
-										<strong>Working/Stand-By</strong><span>4.5 hours/120 hours</span>
+										<strong>Working/Stand-By</strong><span>6.5 hours/200 hours</span>
 									</li>
 								</ol>
 							</td>
