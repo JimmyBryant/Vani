@@ -1,4 +1,3 @@
-
 		<div class="main-content" id="product-content">
 			<div class="pro-head clearfix">
 				<h3 class="pro-head-leftCon">
@@ -6,13 +5,13 @@
 				</h3>
 				<ul class="pro-head-rightCon">
 					<li data-item="overview" class="item actived">
-						<a href="javascript:;">Overview</a>
+						<a href="#overview">Overview</a>
 					</li>
 					<li data-item="features" class="item">
-						<a href="javascript:;">Features</a>
+						<a href="#features">Features</a>
 					</li>
 					<li data-item="specification"  class="item">
-						<a href="javascript:;">Specification</a>
+						<a href="#specification">Specification</a>
 					</li>
 					<li>
 						<a href="http://forum.vani-tablet.com/">Support</a>
@@ -21,7 +20,7 @@
 				</ul>
 			</div>
 			<div class="vani-conent-intro">
-				<section class="overview">
+				<section id="overview" class="overview">
 					<h1>Windows 8.1 Tablet PC</h1>
 					<p>
 						<strong>Not only</strong> a tablet, but also a real computer
@@ -29,14 +28,15 @@
 					<img src="assets/images/vw-10/01.jpg">
 					<hr>
 				</section>
-				<section class="overview features">
-					<h1>Windows 8.1 Installed</h1>
+				<section id="features" class="features">
+<!-- 					<h1>Windows 8.1 Installed</h1>
 					<p>
 						Windows 8.1 lets you work the way you want. Move easily from one thing to another by multitasking on any Windows PC or tablet. Pull up a Wikipedia article to settle a debate with the friend you're on Skype with. Or play a music video while polishing your resume. Depending on your screen size, you can see up to four apps at once.
 					</p>
 					<img src="assets/images/vw-10/04.jpg">
 					<img src="assets/images/vw-10/02.jpg">
-					<img src="assets/images/vw-10/03.jpg">
+					<img src="assets/images/vw-10/03.jpg"> -->
+					<img src="assets/images/vw-10/14.jpg">
 					<hr>
 					<img src="assets/images/vw-10/09.jpg">
 					<hr>
@@ -48,7 +48,7 @@
 					<hr>
 					<img src="assets/images/vw-10/13.jpg">
 				</section>
-				<section class="specification">
+				<section id="specification" class="specification">
 					<table width="100%" cellpadding="0" cellspacing="0">
 						<tr>
 							<td><strong>Size and Weight</strong></td>
@@ -115,11 +115,6 @@
 							</td>
 						</tr>
 					</table>
-<!-- 					<p>
-					</p>
-					<img src="assets/images/vw-10/05.jpg">
-					<img src="assets/images/vw-10/06.jpg">
-					<img src="assets/images/vw-10/07.jpg"> -->
 
 				</section>
 			</div>

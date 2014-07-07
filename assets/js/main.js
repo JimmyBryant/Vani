@@ -28,7 +28,7 @@ require(['jquery','nav','jquery.responsiveslides'],function($,nav){
 				if($this.hasClass('item')&&!$this.hasClass('actived')){
 					$ul.find('li.actived').removeClass('actived');
 					$this.addClass('actived');
-					switchContent($this.data('item'));
+					// switchContent($this.data('item'));
 				}
 
 				function switchContent(item){
