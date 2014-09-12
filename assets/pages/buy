@@ -2,23 +2,20 @@
 
 			<div class="online-shop">
 				<section>
-					<h3>
-						You can buy it form our online store 
-					</h3>
-					<a class="shop-icon linkednew" href="http://www.linkednew.com">
+					<h4 class="tip-text">
+						You could buy from our authorized resellers at 
+					</h4>
+					<a class="shop-icon linkednew" href="http://www.linkednew.com" title="linkednew">
 						<img src="assets/images/linkednew.jpg">
 					</a>
-				</section>
-				<section>
-					<h3>
-						And also you can go to our eBay and Amazon store:
-					</h3>
-					<a class="shop-icon ebay" href="http://stores.ebay.com/Digital-Accessories-Store">
+					<a class="shop-icon ebay" href="http://www.ebay.com" title="ebay">
 						<img src="assets/images/ebay.jpg">
 					</a>
-					<a class="shop-icon amazon" href="http://www.amazon.com/shops/A2ALZRKBVY07C6">
+					<a class="shop-icon amazon" href="http://www.amazon.com/" title="amazon">
 						<img src="assets/images/amazon.jpg">
 					</a>
+					<p class="mute">Search keywords: "Vani Tablet"</p>
 				</section>
 			</div>
+			
 		</div>

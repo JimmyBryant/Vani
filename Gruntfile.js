@@ -40,6 +40,7 @@ module.exports = function(grunt) {
 		    	files:{
 		    		'index.html':['assets/template/head','assets/pages/index','assets/template/foot'],
 		    		'product-vw-10.html':['assets/template/head','assets/pages/product-vw-10','assets/template/foot'],
+		    		'product-vw-10F.html':['assets/template/head','assets/pages/product-vw-10F','assets/template/foot'],
 		    		'product-va-07.html':['assets/template/head','assets/pages/product-va-07','assets/template/foot'],
 		    		'product.html':['assets/template/head','assets/pages/product','assets/template/foot'],
 		    		'about.html':['assets/template/head','assets/pages/about','assets/template/foot'],
@@ -75,11 +76,5 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-less');
 	grunt.loadNpmTasks('grunt-contrib-cssmin');
 	grunt.loadNpmTasks('grunt-contrib-watch');
-
-	grunt.registerTask('pinad',['concat:pinad','jshint','uglify','cssmin']);
-	grunt.registerTask('ifeng',['uglify:ifeng']);
-	grunt.registerTask('sprint',['concat:sprint','jshint:sprint','uglify:sprint','cssmin:sprint']);
-	grunt.registerTask('metro',['concat:metro','jshint:metro','uglify:metro','less:metro','cssmin:metro']);
-	grunt.registerTask('msncouplet',['concat:msncouplet','jshint:msncouplet','uglify:msncouplet','cssmin:msncouplet']);
 
 };

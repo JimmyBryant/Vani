@@ -2,9 +2,8 @@
 		<div class="main-content">
 			<div id="v-slide-box">
 				<ul  class="v-slider">
-					<li><a href="#"><img src="assets/images/slider/p1.jpg"></a></li>
-					<li><a href="#"><img src="assets/images/slider/p2.jpg"></a></li>
-					<!-- <li><a href="#"><img src="assets/images/slider/pic3.jpg"></a></li> -->
+					<li><a href="product-vw-10.html"><img src="assets/images/slider/p1.jpg"></a></li>
+					<li><a href="product-vw-10.html"><img src="assets/images/slider/p2.jpg"></a></li>
 				</ul>
 			</div>
 			<!--
